@@ -1,3 +1,9 @@
 # vagrant-example
 
-This repository will be used to set up a Vagrant VM to be in some of my development projects. As you can see, it is still a work in progress.
+
+This project serves as a (simple and opinionated) setup example of a Vagrant VM to support the development of an Angular / Spring Boot 
+application.
+
+The Angular app was created using the [Fountain Webapp Generator][1].
+
+[1]: https://github.com/FountainJS/generator-fountain-webapp
