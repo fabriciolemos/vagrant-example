@@ -67,7 +67,7 @@ module.exports = {
   },
   entry: {
     app: `./${conf.path.src('index')}`,
-    vendor: Object.keys(pkg.dependencies).filter(dep => !['todomvc-app-css'].includes(dep))
+    vendor: Object.keys(pkg.dependencies).filter(dep => ['todomvc-app-css'].indexOf(dep) === -1)
   },
   ts: {
     configFileName: 'tsconfig.json'
