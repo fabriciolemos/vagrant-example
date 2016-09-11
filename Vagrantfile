@@ -12,5 +12,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", path: "provision/npm_packages.sh"
   config.vm.provision "shell", path: "provision/java.sh"
   config.vm.provision "shell", path: "provision/maven.sh"
+  config.vm.provision "file", source: "provision/m2_settings.xml", destination: "~/.m2/settings.xml"
 
 end
+
