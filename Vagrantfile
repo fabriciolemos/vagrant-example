@@ -11,5 +11,6 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", path: "provision/nodejs.sh"
   config.vm.provision "shell", path: "provision/npm_packages.sh"
   config.vm.provision "shell", path: "provision/java.sh"
+  config.vm.provision "shell", path: "provision/maven.sh"
 
 end
