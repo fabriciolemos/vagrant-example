@@ -1,4 +1,3 @@
 .vagrant/
 target/
-app/service/src/main/java/com/todo/domain/
 m2/
